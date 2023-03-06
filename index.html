@@ -216,13 +216,23 @@
             #icon1 {
                 height: 24px;
             }
+            #icon11 {
+                height: 24px;
+            }
 
             #icon2 {
                 height: 18px;
                 width: 22px;
             }
+            #icon22 {
+                height: 18px;
+                width: 22px;
+            }
 
             #icon3 {
+                height: 18px;
+            }
+            #icon33 {
                 height: 18px;
             }
             #header{
@@ -231,6 +241,16 @@
         }
 
         @media only screen and (max-width: 576px) {
+            #icon1 {
+                display: none;
+            }
+            #icon2 {
+                display: none;
+            }
+            #icon3 {
+                display: none;
+            }
+
             #love {
                 position: absolute;
                 left: 1px;
@@ -280,7 +300,6 @@
             #resume {
                 text-align: center;
                 background-image: linear-gradient(to bottom right, rgb(0, 208, 255), rgb(25, 0, 255));
-                padding: 15px 10px;
                 border-radius: 20px;
             }
 
@@ -289,7 +308,7 @@
                 border-radius: 20px;
                 min-width: 100%;
                 border: 2px solid rgb(0, 208, 255);
-                margin-bottom: 5.5vw;
+                margin-bottom: 12.5vw;
             }
             #header{
                 height: 10vh;
@@ -298,8 +317,8 @@
 
             #parent_resume_project {
                 max-width: 100%;
-                padding-left: 2.5vw;
-                padding-right: 2.5vw;
+                padding-left: 8.5vw;
+                padding-right: 8.5vw;
 
             }
 
@@ -391,10 +410,13 @@
                         </div>
                         <div id="iconset" style="display: flex;align-items: center;margin-left: 80px;">
                             <img id="icon1" src="ri_behance-line.svg" alt="">
+                            <img id="icon11" src="behance_color.svg" alt="">
                             <!-- style="height: 24px;" -->
                             <img id="icon2" src="dribble 1.svg" alt="" style=" margin-left: 25px;">
+                            <img id="icon22" src="dribble_color.svg" alt="" style=" margin-left: 25px;">
                             <!-- height: 18px;width: 22px; -->
                             <img id="icon3" src="insta.svg" alt="" style="margin-left: 25px;">
+                            <img id="icon33" src="insta_color.svg" alt="" style="margin-left: 25px;">
                             <!-- height: 18px; -->
 
                         </div>
@@ -409,9 +431,11 @@
                                 style=" overflow: hidden; min-height: 60vh; padding: 3vw; background-color: rgb(0, 0, 0);background-image: url(Component\ 1.svg);background-repeat: no-repeat;background-size: contain;background-position-x:60%;background-position-y: bottom;">
                                 <h1 id="headline"
                                     style="  color: rgb(255, 255, 255);  font-weight: 500;">
-                                    Hi! I
+                                    Hi!
                                     <span id="headline_span"
                                     style="display: inline-block;height: 6vh;width: 6vh;border-radius: 50%;background-image: url(hand_love.svg);background-repeat: no-repeat;background-position: center;background-size: cover;"></span>
+                                    I
+                                    
                                     <div style="display: inline-block;overflow: hidden;">
                                         <div id="toggle">
                                             <span style="color: yellow;">Research</span>
